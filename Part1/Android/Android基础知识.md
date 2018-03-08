@@ -279,6 +279,10 @@ AnimationDrawable 控制
 animation-list xml布局
 
 * PropertyAnimation 属性动画
+
+1） 插值器 Interpolator（变化趋势）
+
+2） 估值器 Evalutor（变化值）
  
 ---
 
@@ -374,6 +378,9 @@ Android5.0新特性：
 * MaterialDesign设计风格
 * 支持多种设备
 * 支持64位ART虚拟机
+
+（Android  5.0 之前采用的是 davilk 虚拟机，解析的是 dex 文件，在应用程序运行的时候，动态解析 dex 文件，妆花为本地机器码。
+ Android 5.0 之后采用 Art 虚拟机，在安装的时候dex中的字节码将被编译成本地机器码，之后运行的时候直接运行本地机器码，所以相当于是空间换时间）
 
 Android6.0新特性
 
